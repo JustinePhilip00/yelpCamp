@@ -1,0 +1,37 @@
+<% layout('layouts/boilerplate')%> 
+<div id="cluster-map"></div>
+    <h1> Current Campgrounds</h1>
+    <br> 
+    <ul>
+        <% for(let campground of campgrounds) { %>
+       
+        <div class="card mb-3" >
+            <div class="row" > 
+                <div class="col-md-4"> 
+                     <% if (campground.image.length) { %>
+                     <img crossorigin="anonymous" class=img-fluid" src="<%=campground.image[0].url  %>" class="card-img-top" alt="..." style="width: 400px; height: auto;">
+                     <% } else { %>
+                    <img crossorigin="anonymous" src=" https://www.exploresquamish.com/site/assets/files/18586/stawamus-chief-campground-1500x1000.2400x1348.webp"style="width: 400px; height: auto;"> 
+                        <% } %>
+                </div>
+           
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title"><%= campground.title  %></h5>
+                    <!-- <h5 class="card-title"> <%= campground.properties.popUpMarkup  %> </h5> -->
+                     <p class="card-text"><%= campground.description %> </p>
+                     <p class="card-text">
+                    <small class="text-muted"> <%= campground.location %> </p> </small>
+                    <a href="/campgrounds/<%=campground._id  %>" class="btn btn-primary"><%= campground.title  %></a>
+                </div>
+            </div>
+        </div>    
+        </div>
+          
+        <% } %>
+    </ul>
+    <script> 
+        const mapToken = '<%- process.env.MAPTILER_API_KEY %>'; 
+        const campgrounds = {features: <%- JSON.stringify(campgrounds)%>} 
+    </script>
+    <script src="/javascripts/clusterMap.js"> </script>
