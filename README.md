@@ -15,7 +15,6 @@ YelpCamp allows users to:
 <li>  Persistent Data: All campground, review, and user data is stored securely in MongoDB Atlas (deployed on AWS). </li>
   <br> 
 <h1> <b>  Technologies Used </b> </h1>
-  <br> 
 <b> Frontend: </b>
 <li> HTML5: Markup language for creating the structure of web pages.</li>
 <li> CSS3: For styling and visual presentation of web pages.</li>
