@@ -46,5 +46,5 @@ Throughout the project, I gained experience in:
 <li> Deployment: Deploying a full-stack web application to the cloud (Render) and using AWS for MongoDB hosting.</li>
 <br> 
 
-![Homepage Screenshot](Screenshot 2024-09-11 182440.png)
+![Homepage Screenshot](https://github.com/JustinePhilip00/yelpCamp/blob/main/Screenshot%202024-09-11%20183210.png)
 
