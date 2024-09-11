@@ -45,6 +45,5 @@ Throughout the project, I gained experience in:
 <li> Data Associations: Creating relationships between users, campgrounds, and reviews using MongoDB.</li>
 <li> Deployment: Deploying a full-stack web application to the cloud (Render) and using AWS for MongoDB hosting.</li>
 <br> 
-Homepage
-<img src="C:\Users\justi\OneDrive\Pictures\Screenshots\Screenshot 2024-09-11 183210.png"> 
+
 
