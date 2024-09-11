@@ -47,7 +47,7 @@ Throughout the project, I gained experience in:
 <br> 
 
 ![Homepage Screenshot](https://github.com/JustinePhilip00/yelpCamp/blob/main/Screenshot%202024-09-11%20183210.png)
-![Signed In page]((https://github.com/JustinePhilip00/yelpCamp/blob/main/Screenshot%202024-09-11%20182440.png))
+![Signed In page](https://github.com/JustinePhilip00/yelpCamp/blob/main/Screenshot%202024-09-11%20182440.png)
 ![Homepage Screenshot](https://github.com/JustinePhilip00/yelpCamp/blob/main/Screenshot%202024-09-11%20183210.png)
 ![Homepage Screenshot](https://github.com/JustinePhilip00/yelpCamp/blob/main/Screenshot%202024-09-11%20183210.png)
 ![Homepage Screenshot](https://github.com/JustinePhilip00/yelpCamp/blob/main/Screenshot%202024-09-11%20183210.png)
