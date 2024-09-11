@@ -44,3 +44,7 @@ Throughout the project, I gained experience in:
 <li>Authentication & Authorization: Using Passport.js to secure user data and control access to application features.</li>
 <li> Data Associations: Creating relationships between users, campgrounds, and reviews using MongoDB.</li>
 <li> Deployment: Deploying a full-stack web application to the cloud (Render) and using AWS for MongoDB hosting.</li>
+<br> 
+Homepage
+![Screenshot 2024-09-11 183210](https://github.com/user-attachments/assets/071e2c68-6e6b-49fd-b869-a6ed0443c7ac)
+
