@@ -35,7 +35,11 @@ const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/yelpCamp';
 mongoose.connect(dbUrl,{
     useNewUrlParser:true,
     // useCreateIndex:true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    tls: true,
+    tlsAllowInvalidCertificates: false,
+    serverSelectionTimeoutMS: 5000,
+    socketTimeoutMS: 45000,
 });
 
 const db = mongoose.connection
@@ -60,7 +64,9 @@ const store = MongoStore.create({
     touchAfter: 24 * 60 * 60,
     crypto: {
          secret: secret
-    }
+    },
+    tls: true,
+    tlsAllowInvalidCertificates: false,
 });
 
 store.on("error", function (e) {
